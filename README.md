@@ -1,61 +1,53 @@
-Hi, I'm Rahul Venkat 👋
+# Hi, I'm Rahul Venkat 👋
 
-🎓 Cybersecurity Student at Purdue University
-💻 Interested in applying aritificial intelligence for cybersecurity. Aspiring Forward Deployed Engineering
+🎓 **Cybersecurity Student at Purdue University**  
+🚀 **Aspiring Forward Deployed Engineer**
 
-I enjoy building practical technology solutions that solve real-world problems. I'm currently developing my skills across software engineering, artificial intelligence, cloud computing, and cybersecurity.
+I'm interested in building practical software solutions that solve real-world problems. My focus is on combining **software engineering, artificial intelligence, and cybersecurity** to build secure and intelligent applications.
 
-My goal is to become an engineer who can work end-to-end — from understanding a problem and designing a solution to building, deploying, and delivering it.
+I enjoy learning by building, experimenting with new technologies, and exploring how engineering can create meaningful impact.
 
-🚀 Areas of Interest
+## 🎯 Areas of Interest
 
+- 🤖 Artificial Intelligence & LLM Applications
+- 🔐 Cybersecurity & Secure Software Development
+- 💻 Software Engineering & Application Development
+- ☁️ Cloud Computing & Infrastructure
+- 🧠 AI Agents & Automation
+- 🚀 Forward Deployed Engineering
 
-* Artificial Intelligence & LLM Applications
+## 🛠️ Technologies
 
-* Cybersecurity & Secure Software Development
+### Languages
+- Python
+- Java
+- JavaScript / TypeScript
+- SQL
 
-* Software Engineering & Full-Stack Development
+### Tools & Technologies
+- Git & GitHub
+- Linux / Unix
+- REST APIs
+- Cloud Technologies
+- Docker
 
-* Cloud Computing & Infrastructure
+*Currently expanding my skills through coursework, hands-on development, and personal projects.*
 
-* AI Agents & Automation
+## 🌱 Currently Learning
 
-* Forward Deployed Engineering
+- Software Engineering fundamentals
+- Data Structures & Algorithms
+- Backend Development
+- AI Application Development
+- Cloud Computing
+- Secure Software Development
 
-🛠️ Technologies
+## 🚧 Projects
 
-Languages
+I'm currently building projects that combine software engineering, AI, and cybersecurity. Check back as I continue developing and documenting my work.
 
-* Python
-* Java
-* JavaScript / TypeScript
-* SQL
+## 🎯 My Goal
 
-Tools & Technologies
+To become an engineer who can work end-to-end — from understanding a real-world problem and designing a solution to building, deploying, and delivering technology that creates value.
 
-* Git & GitHub
-* Linux
-* REST APIs
-* Docker
-* Cloud Technologies
-
-Currently expanding my skills through hands-on projects and continuous learning.
-
-📌 Featured Projects
-
-🚧 Projects coming soon — currently building and learning.
-
-📚 Currently Learning
-
-* Software Engineering fundamentals
-* Data Structures & Algorithms
-* Backend development and APIs
-* AI application development
-* Cloud computing
-* Cybersecurity engineering
-
-🎯 My Goal
-
-Build technology that makes a meaningful impact by combining software engineering, AI, and cybersecurity.
-
-Always learning. Always building.
+**Always learning. Always building.**
