@@ -15,7 +15,8 @@ them safe to rely on.
 - **Ship complete tools, not scripts.** Command-line options, clear errors,
   exit codes for automation, tests, and a README that states the limits.
 - **Choose the right tool, not the newest one.** I solved the same detection
-  problem twice, with regex and with an LLM, to see when AI is worth its cost.
+  problem twice, with regex and with an LLM, then measured both: on known log
+  formats the regex was as accurate, free and 100,000× faster.
 - **Treat AI output as untrusted.** Every LLM answer is checked against the raw
   data, with defences against prompt injection from attacker-controlled input.
 - **Test before trusting.** Edge cases that break real tools (IPv6, New Year
@@ -27,6 +28,7 @@ them safe to rely on.
 |---|---|---|
 | [ssh-log-analyzer](https://github.com/rrahulvenkat/ssh-log-analyzer) | Detects SSH brute-force attacks in OpenSSH logs and flags attackers who then log in successfully | A tested, automatable CLI tool |
 | [log-analyzer-agent](https://github.com/rrahulvenkat/log-analyzer-agent) | The same problem solved with Claude: structured extraction, validated answers, prompt-injection defences | Using LLMs safely in a security workflow |
+| [ssh-detection-eval](https://github.com/rrahulvenkat/ssh-detection-eval) | Scores both analyzers against an independent answer key: accuracy, cost and speed, plus the LLM with and without its safety checks | Measuring when AI is worth it, with evidence |
 | [python_learning_journey](https://github.com/rrahulvenkat/python_learning_journey) | My foundations: algorithms, log parsing, encodings, and a detection engine with baselines, correlation and MITRE ATT&CK mapping | Depth behind the tools |
 
 ## 🛠️ Toolkit
@@ -36,8 +38,8 @@ them safe to rely on.
 
 ## 🚧 Building Now
 
-- **Rule-based vs LLM detection:** both analyzers on the same labelled data,
-  compared on accuracy, cost and speed.
+- **Hybrid detection:** regex for known log formats, the LLM only for lines
+  no rule can read, with the same checks on its answers.
 - **A detection engine:** my parsers, rules and correlation code as an
   installable tool for Linux, web, cloud and Windows logs.
 
