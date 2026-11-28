@@ -30,7 +30,7 @@ them safe to rely on.
 | [log-analyzer-agent](https://github.com/rrahulvenkat/log-analyzer-agent) | The same problem solved with Claude: structured extraction, validated answers, prompt-injection defences | Using LLMs safely in a security workflow |
 | [ssh-detection-eval](https://github.com/rrahulvenkat/ssh-detection-eval) | Scores both analyzers against an independent answer key: accuracy, cost and speed, plus the LLM with and without its safety checks | Measuring when AI is worth it, with evidence |
 | [ssh-hybrid-detector](https://github.com/rrahulvenkat/ssh-hybrid-detector) | Rules for known log formats, Claude only for lines no rule reads, with answers checked and doubtful ones queued for review. Reviewed formats become rules: that stopped a prompt-injection trick that framed another IP | Combining rules and AI, and being honest about where AI fails |
-| [log-detection-engine](https://github.com/rrahulvenkat/log-detection-engine) | Reads SSH, web, Windows and CloudTrail logs into one event format, runs rules across all of them, and correlates alerts into incidents labelled with MITRE ATT&CK. Tested on public real-world logs, which exposed six bugs I then fixed | Designing a system, then measuring it on real data |
+| [log-detection-engine](https://github.com/rrahulvenkat/log-detection-engine) | Reads SSH, web, Windows and CloudTrail logs into one event format, runs rules across all of them, and correlates alerts into incidents labelled with MITRE ATT&CK. Tested on public real-world SSH, web and Windows logs, which exposed ten bugs I then fixed | Designing a system, then measuring it on real data |
 | [python_learning_journey](https://github.com/rrahulvenkat/python_learning_journey) | My foundations: algorithms, log parsing, encodings, and a detection engine with baselines, correlation and MITRE ATT&CK mapping | Depth behind the tools |
 
 ## 🛠️ Toolkit
@@ -40,9 +40,9 @@ them safe to rely on.
 
 ## 🚧 Building Now
 
-- **Windows and cloud logs on real data:** log-detection-engine is tested
-  on real SSH and web logs; next, converters for public Windows `.evtx`
-  and CloudTrail datasets.
+- **Small security tools in Python:** ciphers and how they break, hashing
+  and file integrity, and attack paths through a network, each a short
+  project in [python_learning_journey](https://github.com/rrahulvenkat/python_learning_journey).
 
 ## 🎯 My Goal
 
