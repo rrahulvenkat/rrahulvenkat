@@ -31,7 +31,8 @@ them safe to rely on.
 | [ssh-detection-eval](https://github.com/rrahulvenkat/ssh-detection-eval) | Scores both analyzers against an independent answer key: accuracy, cost and speed, plus the LLM with and without its safety checks | Measuring when AI is worth it, with evidence |
 | [ssh-hybrid-detector](https://github.com/rrahulvenkat/ssh-hybrid-detector) | Rules for known log formats, Claude only for lines no rule reads, with answers checked and doubtful ones queued for review. Reviewed formats become rules: that stopped a prompt-injection trick that framed another IP | Combining rules and AI, and being honest about where AI fails |
 | [log-detection-engine](https://github.com/rrahulvenkat/log-detection-engine) | Reads SSH, web, Windows and CloudTrail logs into one event format, runs rules across all of them, and correlates alerts into incidents labelled with MITRE ATT&CK. Tested on public real-world SSH, web and Windows logs, which exposed ten bugs I then fixed | Designing a system, then measuring it on real data |
-| [python_learning_journey](https://github.com/rrahulvenkat/python_learning_journey) | My foundations: algorithms, log parsing, encodings, and a detection engine with baselines, correlation and MITRE ATT&CK mapping | Depth behind the tools |
+| [security mini-projects](https://github.com/rrahulvenkat/python_learning_journey/tree/main/projects) | Short, self-contained tools: password strength the way crackers guess, file integrity monitoring, breaking classic ciphers, hash cracking with salts and slow hashes, attack-path graphs, and a vulnerable-by-design app (SQLi, XSS, path traversal) exploited then fixed | The fundamentals, each with a demo and tests |
+| [python_learning_journey](https://github.com/rrahulvenkat/python_learning_journey) | My foundations: algorithms, data structures, log parsing, encodings, and the OOP lessons the detection engine grew out of | Depth behind the tools |
 
 ## 🛠️ Toolkit
 
