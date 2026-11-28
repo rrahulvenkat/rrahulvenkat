@@ -29,7 +29,7 @@ them safe to rely on.
 | [ssh-log-analyzer](https://github.com/rrahulvenkat/ssh-log-analyzer) | Detects SSH brute-force attacks in OpenSSH logs and flags attackers who then log in successfully | A tested, automatable CLI tool |
 | [log-analyzer-agent](https://github.com/rrahulvenkat/log-analyzer-agent) | The same problem solved with Claude: structured extraction, validated answers, prompt-injection defences | Using LLMs safely in a security workflow |
 | [ssh-detection-eval](https://github.com/rrahulvenkat/ssh-detection-eval) | Scores both analyzers against an independent answer key: accuracy, cost and speed, plus the LLM with and without its safety checks | Measuring when AI is worth it, with evidence |
-| [ssh-hybrid-detector](https://github.com/rrahulvenkat/ssh-hybrid-detector) | Rules for known log formats, Claude only for lines no rule reads, with answers checked and doubtful ones queued for review. It catches a Dropbear brute force that rules miss, for $0.02 | Combining rules and AI, and being honest about where AI fails |
+| [ssh-hybrid-detector](https://github.com/rrahulvenkat/ssh-hybrid-detector) | Rules for known log formats, Claude only for lines no rule reads, with answers checked and doubtful ones queued for review. Reviewed formats become rules: that stopped a prompt-injection trick that framed another IP | Combining rules and AI, and being honest about where AI fails |
 | [python_learning_journey](https://github.com/rrahulvenkat/python_learning_journey) | My foundations: algorithms, log parsing, encodings, and a detection engine with baselines, correlation and MITRE ATT&CK mapping | Depth behind the tools |
 
 ## 🛠️ Toolkit
@@ -39,8 +39,8 @@ them safe to rely on.
 
 ## 🚧 Building Now
 
-- **Hardening the hybrid:** turning reviewed log formats into rules, so a
-  prompt-injection trick that framed another IP stops working.
+- **Testing the hybrid fairly:** a held-out sample of log formats no rule has
+  seen, to measure the LLM fallback again now that reviewed formats became rules.
 - **A detection engine:** my parsers, rules and correlation code as an
   installable tool for Linux, web, cloud and Windows logs.
 
